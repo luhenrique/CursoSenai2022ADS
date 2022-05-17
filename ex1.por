@@ -15,10 +15,10 @@ programa {
 	    
 
 	    escreva("---------------------------------\n\n")
-	    escreva("Olá o seu nome é: ", nome, "\n")
-	    escreva("Você é de : ", cidade, "\n")
-	    escreva("O seu peso é: ", peso, "Kg \n")
-	    escreva("Olá a sua altura  é: ", altura, "m \n")
+	    escreva("OlÃ¡ o seu nome Ã©: ", nome, "\n")
+	    escreva("VocÃª Ã© de : ", cidade, "\n")
+	    escreva("O seu peso Ã©: ", peso, "Kg \n")
+	    escreva("OlÃ¡ a sua altura  Ã©: ", altura, "m \n")
 	    
 	}
 }
