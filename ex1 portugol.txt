@@ -1,0 +1,36 @@
+--------------------EXERCICIO 1 ------------------------------
+
+Construa um algoritmo que leia o nome, cidade, idade e altura de uma pessoa e retorne os dados digitados na tela
+
+programa
+{
+
+	funcao inicio()
+	{
+		cadeia nome, cidade
+		inteiro idade
+		real peso, altura	
+		escreva("=======================================\n")
+		escreva("======= A P R E S E N T A C A O =======\n")
+		escreva("=======================================\n")
+		escreva("Digite seu nome: ")
+		leia(nome)
+		escreva("Digite sua cidade: ")
+		leia(cidade)
+		escreva("Digite sua idade: ")
+		leia(idade)
+		escreva("Digite seu peso: ")
+		leia(peso)
+		escreva("Digite sua altura: ")
+		leia(altura)
+		escreva("=======================================\n")
+		escreva("==== D A D O S  C O L E T A D O S =====\n")
+		escreva("=======================================\n")
+		//escreva("Nome: ",nome," | Idade: ",idade," | Cidade: ",cidade," | Peso: ",peso," | Altura: ",altura,"\n")
+		escreva("Olá, ",nome,", a sua idade é ",idade," anos, você mora em ",cidade," com peso de ",peso," kgs e tem altura ",altura," metros.\n")
+		escreva("=======================================\n")
+		escreva("============= T C H A U ! =============\n")
+		escreva("=======================================\n")
+	}
+}
+

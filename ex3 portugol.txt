@@ -1,0 +1,32 @@
+--------------------EXERCICIO 3 ------------------------------
+
+Construa um algoritmo que receba o nome do aluno e a nota de 3 provas e retorne a média aritmética do aluno 
+
+programa
+{
+
+	funcao inicio()
+	{	
+		cadeia nome
+		real nota1, nota2, nota3, nota4, media
+		escreva("=================================\n")
+		escreva("=== CALCULO DE MÉDIA DO ALUNO ===\n")
+		escreva("=================================\n")
+		escreva("Digite o nome do Aluno: ")
+		leia(nome)
+		escreva("Digite a nota 01: ")
+		leia(nota1)
+		escreva("Digite a nota 02: ")
+		leia(nota2)
+		escreva("Digite a nota 03: ")
+		leia(nota3)
+		escreva("Digite a nota 04: ")
+		leia(nota4)
+		media = (nota1 + nota2 + nota3 + nota4)/4
+		escreva("=================================\n")
+		escreva("======= R E S U L T A D O =======\n")
+		escreva("=================================\n")
+		escreva("A média do aluno ",nome," é: ",media)	
+	}
+}
+
