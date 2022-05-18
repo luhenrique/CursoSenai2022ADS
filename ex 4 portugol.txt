@@ -1,0 +1,23 @@
+EXERCICIO 4
+
+Contrua um algoritmo que recebe um numero e retorna se ele é par ou impar
+
+
+
+programa {
+	funcao inicio() {
+
+        inteiro num
+        
+        escreva("Entre com um numero: \n")
+        leia(num)
+        
+        se ((num % 2) == 0){
+            escreva("O numero digitado ", num," é par")
+        }senao{
+            escreva("o numero é impar")
+        }
+}
+
+}
+
