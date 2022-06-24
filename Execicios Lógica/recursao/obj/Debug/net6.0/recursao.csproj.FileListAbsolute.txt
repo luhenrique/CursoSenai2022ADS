@@ -1,0 +1,15 @@
+/home/luiz/CursoSenai2022ADS/recursao/bin/Debug/net6.0/recursao
+/home/luiz/CursoSenai2022ADS/recursao/bin/Debug/net6.0/recursao.deps.json
+/home/luiz/CursoSenai2022ADS/recursao/bin/Debug/net6.0/recursao.runtimeconfig.json
+/home/luiz/CursoSenai2022ADS/recursao/bin/Debug/net6.0/recursao.dll
+/home/luiz/CursoSenai2022ADS/recursao/bin/Debug/net6.0/ref/recursao.dll
+/home/luiz/CursoSenai2022ADS/recursao/bin/Debug/net6.0/recursao.pdb
+/home/luiz/CursoSenai2022ADS/recursao/obj/Debug/net6.0/recursao.csproj.AssemblyReference.cache
+/home/luiz/CursoSenai2022ADS/recursao/obj/Debug/net6.0/recursao.GeneratedMSBuildEditorConfig.editorconfig
+/home/luiz/CursoSenai2022ADS/recursao/obj/Debug/net6.0/recursao.AssemblyInfoInputs.cache
+/home/luiz/CursoSenai2022ADS/recursao/obj/Debug/net6.0/recursao.AssemblyInfo.cs
+/home/luiz/CursoSenai2022ADS/recursao/obj/Debug/net6.0/recursao.csproj.CoreCompileInputs.cache
+/home/luiz/CursoSenai2022ADS/recursao/obj/Debug/net6.0/recursao.dll
+/home/luiz/CursoSenai2022ADS/recursao/obj/Debug/net6.0/ref/recursao.dll
+/home/luiz/CursoSenai2022ADS/recursao/obj/Debug/net6.0/recursao.pdb
+/home/luiz/CursoSenai2022ADS/recursao/obj/Debug/net6.0/recursao.genruntimeconfig.cache

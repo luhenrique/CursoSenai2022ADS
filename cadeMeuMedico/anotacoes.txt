@@ -1,0 +1,226 @@
+COMANDO 
+	dotnet new webapi -n cadeMeuMedico
+
+CADE MEU MEDICO
+	CADASTRAR
+		MEDICOS
+		ESPECIALIDADES
+		CIDADES
+	USUARIO -> PROCURAR MEDICOS POR ESPECIALIDADE 
+	CARDIOLOGISTA, APUCARANA
+	RETORNO
+		LISTA
+			JOAO  - CARDIOLOGISTA
+			MARIA - CARDIOLOGISTA
+			PEDRO - CARDIOLOGISTA
+	
+	CRUD
+		C -> CREATE - CRIAR
+		R -> READ   - LER (RECUPERAR)
+		U -> UPDATE - ATUALIZAR 
+		D -> DELETE - DELETAR 
+
+-------------API------------------------
+API -> APPLICATION PROGRAMMING INTERFACE
+
+UM CONJUNTO DE ROTINAS E PADRÕES DOCUMENTADOS DE APLICAÇÃO X, QUE PERMITE
+QUE DIFERENTES SISTEMAS CONSIGAM ACESSAR AS FUNCIONALIDADE DE X
+	GOOGLE MAPS 
+	FACEBOOK
+	LINKEDIN
+	ETC...
+
+METODOS E PROTOCOLO HTTP/HTTPS
+
+	HTTP  -> HYPERTEXT TRANSFER PROTOCOL -> PROTOCOLO BASE DE COMUNICAÇÃO DE DADOS NA WEB 
+	HTTPS -> HYPERTEXT TRNSFER PROTOCOL SECURITY -> COM UMA CAMADA DE SEGURANÇA SSL
+
+
+	CLIENTE(NAVEGADOR -> OPERA) -> REQUISIÇÃO WEB (HTTP/HTTPS) -> SERVIDOR WEB -> PROCESSAR
+
+	SERVIDOR -> RESPOSTA HTTP/HTTPS -> CLIENTE -> RENDERIZAR 
+
+	GET    -> SOLICITA UM DADO - LE UM DADO DO SERVIDOR
+	POST   -> ENVIA UM DADO PARA O SERVIDOR, CRIAÇÃO
+	PUT    -> ATUALIZAÇÃO DE DADOS 
+	DELETE -> DELETAR ALGUMA COISA
+
+	PORTA WEB
+		80  -> HTTP
+		443 -> HTTPS
+		22  -> SSH
+		21  -> FTP
+		25  -> SMTP (EMAIL)
+		36  -> BANCO DE DADOS
+
+	CÓDIGOS DE REQUISIÇÃO HTTP/HTTPS
+		1XX - Códigos de RESPOSTA
+			100 - indica que o servidor recebeu a requisição 
+			102 - indica que o servidor recebeu a requisição mas ele tem uma resposta disponivel
+		2XX - Códigos de sucesso
+			200(OK) - resposta padrão de requisição bem-sucedida - GET
+			201(CREATED) - reposta de sucesso de criação - POST
+			202(ACCEPTED) - requisição de criação foi aceita, mas ainda está processando
+		3xx - Códigos de redirecionamento
+			301 - indica que o endereço da pagina foi alterado 
+			302 - indica que o endereço da pagina foi alterado, mas não esta disponivel
+		4XX - Códigos de erro do cliente
+			400 - não pode processar a requisição
+			401 - indica a necessidade de autenticação
+			403 - indica erro de sintaxe
+			404 - servidor não encontrou o recurso solicitado
+		5XX - Códigos de erros do servidor
+			500 - indica que o servidor encontrou um erro, e não sabe oq fazer
+			501 - o servidor não reconhece a requisição
+
+
+------MVC----------------------
+	M -> MODEL
+	V -> VIEW
+	C -> CONTROLLER
+
+
+VIEW ->MODEL -> CONTROLLER -> MODEL -> VIEW
+
+	MEDICOS
+	ESPECIALIDADES
+	CIDADES
+	USUARIO
+
+------------CODEFIRST--------------------	
+
+BANCO DE DADOS RELACIONAIS (SQL)
+	MODELO DE ENTIDADE E RELACIONAMENTOS 
+
+		TIPOS DOS DADOS 
+		RELACIONAMENTO ENTRE OS DADOS 
+
+		ENTIDADE(TABELA) -> ATRIBUTOS(COLUNAS) 
+
+		ENTIDADE -> MEDICOS
+						ID
+						NOME
+						ESPECIALIDADE
+						CIDADE
+						CRM
+						IDADE
+						TELEFONE
+
+	CHAVE PRIMARIA    -> UM ATRIBUTO UTILIZADO PARA LOCALIZAR UM DADO
+	CHAVE ESTRANGEIRA -> INDICA UM ATRIBUTO PERTENCENTE A OUTRA TABELA
+
+	RELACIONAMENTO -> UMA ENTIDADE SE RELACIONA COM OUTRA
+	
+	ENTIDADE -> CIDADES
+				ID
+				NOME
+				ESTADO
+	
+	RELACIONAMENTO TODO MEDICO -> CIDADE 
+
+
+
+
+	TABELA MEDICOS
+			ID
+			NOME
+			IDESPECIALIDADE (1:1)
+			IDCIDADE        (1:1)
+			CRM
+			TELEFONE
+			ENDEREÇO
+	
+	TABELA ESPECIALIDADES
+			ID
+			NOME
+			IDMEDICOS (1:N)
+			IDCIDADE  (N:N)
+
+	TABELA CIDADES
+			ID
+			NOME
+			ESTADO
+			IDMEDICOS (N:1)
+			IDESPECIALIDADE (N:N)
+	
+	TABELA USUARIOS
+			ID
+			APELIDO
+			NOME
+			EMAIL
+			SENHA
+			IDCIDADE (1:1)
+
+
+---------------------TIPOS DE RELACIONAMENTOS---------------------------------
+	1:1 (UM PARA UM)         -> UM ELEMENTO DE UMA TABELA SE RELACIONA APENAS COM UM ELEMENTO DE OUTRA TABELA
+	1:N (UM PARA MUITOS)     -> UM ELEMENTO PODE SE RELACIONAR COM N ELEMENTOS DE OUTRA TABELA
+	N:N (MUITOS PARA MUITOS) -> MUITOS ELEMENTOS PODEM SE RELACIONAR COM MUITOS ELEMENTOS DE OUTRA TABELA
+
+-------------------MAPEAMENTO DE MODELS PARA TABELAS EM BANCO DE DADOS-----------------------------------
+	ORM -> OBJECT RELATIONAL MAPPER -> MODELS EM TABELAS
+	
+	C#     -> ENTITY FRAMEWORK
+	JAVA   -> HIBERNATE
+	PYTHON -> SQLALCHEMY
+
+			OBJETOS C# <-> ORM EF <-> BANCO DE DADOS
+
+	ADICIONAR ENTITY FRAMEWORK AO PROJETO
+			dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+			dotnet add package Microsoft.EntityFrameworkCore.Design
+
+
+
+-----------PASSOS PARA CRIAR UM BANCO DE DADOS COM EF-----------------
+    0 - Instalar a ferramento do EF -> dotnet tool install --global dotnet-ef
+	1 - instalar os pacotes do EF -> sqlite, design (vide linha 150, 151)
+	2 - Criar as model definindo os RELACIONAMENTOS
+	3 - Criar o DataContext 
+	4 - Definir as tabelas no DataContext (DbSet<tabela> tabela)
+	5 - Criar CONNECTION STRING -> APPSETTINGS.JSON 
+	6 - Instanciar DataContext no PROGRAM.CS]
+	7 - HORA DO SHOW -> CRIAR AS MIGRAÇÕES
+		7.1 - dotnet ef migrations add AlgumNome
+		7.2 - dotnet ef database update
+
+----------------CONTROLLERS-------------------------------------------
+		CRUD
+		C -> CREATE - CRIAR -> POST
+		R -> READ   - LER (RECUPERAR) -> GET
+		U -> UPDATE - ATUALIZAR -> PUT
+		D -> DELETE - DELETAR -> DELETAR
+
+		MedicosController
+		EspecialidadesController
+		CidadesController
+		UsuariosController
+
+------------METODOS ASSINCRONOS(ASYNC/AWAIT)--------------------------------------
+	PERMITE QUE O SERVIDOR EXECUTE OUTRA AÇÕES SEM TRAVAR THEAD PRINCIPAL
+		ASYNC -> METODOS
+		AWAIT -> AGUARDE A RESPOSTA
+		TASK -> TAREFA - OQ EU QUERO FAZER
+
+------------CAPTURA DE EXCEÇÕES--------------------------------------
+ -> DEFINE O CODIGO PADRÃO SE FOR SUCESSO RETORNA SUCESSO
+ -> SE ACONTECER ALGO QUE NÃO ESPERAMOS LANÇA UMA EXCEÇÃO 
+	TRY {
+
+	}CATCH(EXCEÇÃO){
+
+	}
+
+-----------------ERRO DE CICLO----------------------
+instalar extensão -> NUGET PACKAGE MANEGER
+				  -> CTRL + SHIFT + P
+	PROCURA POR   -> Microsoft.AspNetCore.Mvc.NewtonsoftJson
+	VERSÃO        -> 6.0.6
+	ADICIONAR NO PROGRAM.CS A LINHA -> builder.Services.AddControllers().AddNewtonsoftJson(opt => opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
+------------DICAS DE CURSOS--------------------------
+CURSO DE BACKEND (ASPNET) + FRONTEND (ANGULAR)
+https://youtu.be/4k8aCkFpHk0
+
+CANAL DO BALTA
+https://www.youtube.com/c/baltaio/videos

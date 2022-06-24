@@ -1,0 +1,15 @@
+/home/luiz/CursoSenai2022ADS/ex2/bin/Debug/net6.0/ex2
+/home/luiz/CursoSenai2022ADS/ex2/bin/Debug/net6.0/ex2.deps.json
+/home/luiz/CursoSenai2022ADS/ex2/bin/Debug/net6.0/ex2.runtimeconfig.json
+/home/luiz/CursoSenai2022ADS/ex2/bin/Debug/net6.0/ex2.dll
+/home/luiz/CursoSenai2022ADS/ex2/bin/Debug/net6.0/ref/ex2.dll
+/home/luiz/CursoSenai2022ADS/ex2/bin/Debug/net6.0/ex2.pdb
+/home/luiz/CursoSenai2022ADS/ex2/obj/Debug/net6.0/ex2.csproj.AssemblyReference.cache
+/home/luiz/CursoSenai2022ADS/ex2/obj/Debug/net6.0/ex2.GeneratedMSBuildEditorConfig.editorconfig
+/home/luiz/CursoSenai2022ADS/ex2/obj/Debug/net6.0/ex2.AssemblyInfoInputs.cache
+/home/luiz/CursoSenai2022ADS/ex2/obj/Debug/net6.0/ex2.AssemblyInfo.cs
+/home/luiz/CursoSenai2022ADS/ex2/obj/Debug/net6.0/ex2.csproj.CoreCompileInputs.cache
+/home/luiz/CursoSenai2022ADS/ex2/obj/Debug/net6.0/ex2.dll
+/home/luiz/CursoSenai2022ADS/ex2/obj/Debug/net6.0/ref/ex2.dll
+/home/luiz/CursoSenai2022ADS/ex2/obj/Debug/net6.0/ex2.pdb
+/home/luiz/CursoSenai2022ADS/ex2/obj/Debug/net6.0/ex2.genruntimeconfig.cache

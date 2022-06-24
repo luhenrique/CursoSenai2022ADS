@@ -1,0 +1,15 @@
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/bin/Debug/net6.0/calculadoraFunc
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/bin/Debug/net6.0/calculadoraFunc.deps.json
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/bin/Debug/net6.0/calculadoraFunc.runtimeconfig.json
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/bin/Debug/net6.0/calculadoraFunc.dll
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/bin/Debug/net6.0/ref/calculadoraFunc.dll
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/bin/Debug/net6.0/calculadoraFunc.pdb
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/obj/Debug/net6.0/calculadoraFunc.csproj.AssemblyReference.cache
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/obj/Debug/net6.0/calculadoraFunc.GeneratedMSBuildEditorConfig.editorconfig
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/obj/Debug/net6.0/calculadoraFunc.AssemblyInfoInputs.cache
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/obj/Debug/net6.0/calculadoraFunc.AssemblyInfo.cs
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/obj/Debug/net6.0/calculadoraFunc.csproj.CoreCompileInputs.cache
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/obj/Debug/net6.0/calculadoraFunc.dll
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/obj/Debug/net6.0/ref/calculadoraFunc.dll
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/obj/Debug/net6.0/calculadoraFunc.pdb
+/home/luiz/CursoSenai2022ADS/calculadoraFunc/obj/Debug/net6.0/calculadoraFunc.genruntimeconfig.cache

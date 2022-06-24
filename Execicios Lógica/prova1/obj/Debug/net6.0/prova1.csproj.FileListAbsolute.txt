@@ -1,0 +1,15 @@
+/home/luiz/CursoSenai2022ADS/prova1/bin/Debug/net6.0/prova1
+/home/luiz/CursoSenai2022ADS/prova1/bin/Debug/net6.0/prova1.deps.json
+/home/luiz/CursoSenai2022ADS/prova1/bin/Debug/net6.0/prova1.runtimeconfig.json
+/home/luiz/CursoSenai2022ADS/prova1/bin/Debug/net6.0/prova1.dll
+/home/luiz/CursoSenai2022ADS/prova1/bin/Debug/net6.0/ref/prova1.dll
+/home/luiz/CursoSenai2022ADS/prova1/bin/Debug/net6.0/prova1.pdb
+/home/luiz/CursoSenai2022ADS/prova1/obj/Debug/net6.0/prova1.csproj.AssemblyReference.cache
+/home/luiz/CursoSenai2022ADS/prova1/obj/Debug/net6.0/prova1.GeneratedMSBuildEditorConfig.editorconfig
+/home/luiz/CursoSenai2022ADS/prova1/obj/Debug/net6.0/prova1.AssemblyInfoInputs.cache
+/home/luiz/CursoSenai2022ADS/prova1/obj/Debug/net6.0/prova1.AssemblyInfo.cs
+/home/luiz/CursoSenai2022ADS/prova1/obj/Debug/net6.0/prova1.csproj.CoreCompileInputs.cache
+/home/luiz/CursoSenai2022ADS/prova1/obj/Debug/net6.0/prova1.dll
+/home/luiz/CursoSenai2022ADS/prova1/obj/Debug/net6.0/ref/prova1.dll
+/home/luiz/CursoSenai2022ADS/prova1/obj/Debug/net6.0/prova1.pdb
+/home/luiz/CursoSenai2022ADS/prova1/obj/Debug/net6.0/prova1.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+/home/luiz/CursoSenai2022ADS/pooEx1/bin/Debug/net6.0/pooEx1
+/home/luiz/CursoSenai2022ADS/pooEx1/bin/Debug/net6.0/pooEx1.deps.json
+/home/luiz/CursoSenai2022ADS/pooEx1/bin/Debug/net6.0/pooEx1.runtimeconfig.json
+/home/luiz/CursoSenai2022ADS/pooEx1/bin/Debug/net6.0/pooEx1.dll
+/home/luiz/CursoSenai2022ADS/pooEx1/bin/Debug/net6.0/ref/pooEx1.dll
+/home/luiz/CursoSenai2022ADS/pooEx1/bin/Debug/net6.0/pooEx1.pdb
+/home/luiz/CursoSenai2022ADS/pooEx1/obj/Debug/net6.0/pooEx1.csproj.AssemblyReference.cache
+/home/luiz/CursoSenai2022ADS/pooEx1/obj/Debug/net6.0/pooEx1.GeneratedMSBuildEditorConfig.editorconfig
+/home/luiz/CursoSenai2022ADS/pooEx1/obj/Debug/net6.0/pooEx1.AssemblyInfoInputs.cache
+/home/luiz/CursoSenai2022ADS/pooEx1/obj/Debug/net6.0/pooEx1.AssemblyInfo.cs
+/home/luiz/CursoSenai2022ADS/pooEx1/obj/Debug/net6.0/pooEx1.csproj.CoreCompileInputs.cache
+/home/luiz/CursoSenai2022ADS/pooEx1/obj/Debug/net6.0/pooEx1.dll
+/home/luiz/CursoSenai2022ADS/pooEx1/obj/Debug/net6.0/ref/pooEx1.dll
+/home/luiz/CursoSenai2022ADS/pooEx1/obj/Debug/net6.0/pooEx1.pdb
+/home/luiz/CursoSenai2022ADS/pooEx1/obj/Debug/net6.0/pooEx1.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+/home/luiz/CursoSenai/PooEx3/bin/Debug/net6.0/PooEx3
+/home/luiz/CursoSenai/PooEx3/bin/Debug/net6.0/PooEx3.deps.json
+/home/luiz/CursoSenai/PooEx3/bin/Debug/net6.0/PooEx3.runtimeconfig.json
+/home/luiz/CursoSenai/PooEx3/bin/Debug/net6.0/PooEx3.dll
+/home/luiz/CursoSenai/PooEx3/bin/Debug/net6.0/PooEx3.pdb
+/home/luiz/CursoSenai/PooEx3/obj/Debug/net6.0/PooEx3.csproj.AssemblyReference.cache
+/home/luiz/CursoSenai/PooEx3/obj/Debug/net6.0/PooEx3.GeneratedMSBuildEditorConfig.editorconfig
+/home/luiz/CursoSenai/PooEx3/obj/Debug/net6.0/PooEx3.AssemblyInfoInputs.cache
+/home/luiz/CursoSenai/PooEx3/obj/Debug/net6.0/PooEx3.AssemblyInfo.cs
+/home/luiz/CursoSenai/PooEx3/obj/Debug/net6.0/PooEx3.csproj.CoreCompileInputs.cache
+/home/luiz/CursoSenai/PooEx3/obj/Debug/net6.0/PooEx3.dll
+/home/luiz/CursoSenai/PooEx3/obj/Debug/net6.0/refint/PooEx3.dll
+/home/luiz/CursoSenai/PooEx3/obj/Debug/net6.0/PooEx3.pdb
+/home/luiz/CursoSenai/PooEx3/obj/Debug/net6.0/PooEx3.genruntimeconfig.cache
+/home/luiz/CursoSenai/PooEx3/obj/Debug/net6.0/ref/PooEx3.dll

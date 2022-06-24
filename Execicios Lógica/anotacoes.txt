@@ -1,0 +1,183 @@
+
+-----------------TIPOS DE VARIAVEIS----------------------
+
+inteiro-> Numeros inteiros 
+real -> Numeros reais (Numeros de ponto flutuante)
+Caracter -> Simbolos alfanumericos (Colocar entre "") 
+cadeia -> Sequencia de caracteres
+
+--------------OPERADORES ARITMÉTICOS--------------------
+
+Adição -> + 
+Subtração -> - 
+Multiplicação -> * 
+Divisão -> / 
+Modulo -> % 
+
+--------------OPERADORES LÓGICOS-------------------------
+
+OPERADOR E 
+
+     A  B   V
+     V  V   V
+     V  F   F
+     F  V   F
+     F  F   F
+
+OPERADOR OU
+
+     A  B   V
+     V  V   V
+     V  F   V
+     F  V   V
+     F  F   F 
+
+OPERADOR NEGAÇÃO 
+     NÃO V -> F
+     NÃO F -> V
+
+OPERADOR OU EXCLUSIVO (XOR)
+
+     A  B   V
+     V  V   F
+     V  F   V
+     F  V   V
+     F  F   F
+
+representação em matematica
+ E -> ^
+ OU -> v
+ não -> ~
+
+representação em linguagens de programação
+
+ E -> & / && -> and
+ OU -> ||    -> or 
+ não -> !    -> not
+
+ E -> +
+ OU -> .
+ NÃO -> -
+
+representação em PORTUGOL 
+
+  E -> e
+  OU -> ou
+  NÃO -> nao
+
+-----------OPERADORES DE RELACIONAIS------------------
+
+ = atribuição
+ == igualdade 
+ >  maior
+ <  menor
+ >= maior igual
+ <= menor igual
+ != diferente 
+
+a == b -> A é igual a B
+a > b -> A é maior que B         
+a >= b -> A é maior ou igual a B ( 5 >= 5 )
+a <= b -> A é menor ou igual a B
+a != b -> A é diferente de B 
+
+EX4
+Construa um algoritmo que recebe um numero e diz se ele é par
+
+EX5
+Construa um algoritmo que recebe 3 notas de um aluno, calcula a média e retorne se o
+aluno esta aprovado ou reprovado 
+
+média 7 -> aprovado
+média abaixo 7 -> reprovado	
+
+-----------------------------------------------------------------------
+ESTRUTURAS CONDICIONAIS 
+
+CONDICIONAL SIMPLES -> 
+		SE (CONDIÇÃO) ENTÃO
+			FAÇA ALGUMA COISA
+		FIM_SE
+
+CONDICIONAL COMPOSTA ->
+		SE (CONDIÇÃO) ENTÃO
+			FAÇA ALGUMA COISA
+		SENÃO
+			FAÇA OUTRA COISA
+		FIM SE
+ 
+		SE (CONDIÇÃO) ENTÃO
+			FAÇA ALGUMA COISA
+		SENAO SE (OUTRA CONDIÇÃO) ENTÃO
+			FAÇA ALGUMA OUTRA COISA
+		SENÃO
+			OUTRA COISA
+		FIM_SE 
+
+CONDICIONAL ANINHADA ->
+		SE (A > B) {
+			SE (B > C){
+				ESCREVA("OI")
+			}
+		}
+
+----------ESTRUTURA DE DECISÃO--------------
+
+	ESCOLHA(NUM)
+	CASO 1:
+		FAÇA ALGUMA COISA
+	PARE
+	CASO 2:
+		FAÇA OUTRA COISA 
+	PARE
+	CASO CONTRARIO:
+		FAÇA ALGO	
+
+-----------LAÇOS DE REPETIÇÃO----------------
+
+LAÇO CONTADO ->     PARA FAÇA
+LAÇO CONDICIONAL -> ENQUANTO
+		    FAÇA ENQUANTO
+			
+PARA FAÇA 
+	SINTAXE
+		PARA(INTEIRO I = 10; I < 10; I++){
+			FAÇA ALGUMA COISA
+		}
+
+ENQUANTO 
+	SINTAXE
+		ENQUANTO(CONDIÇAO){
+			FAÇA ALGUMA COISA
+		}
+
+FAÇA-ENQUANTO
+	SINTAXE
+		FACA{
+			FAÇA ALGUMA COISA
+		}ENQUANTO(CONDIÇÃO)
+
+----------------------VETORES--------------------
+
+UMA ESTRUTURA DE DADOS DO MESMO TIPO 
+
+SINTAXE DE VETOR
+	INTEIRO NUM[5]
+
+
+		NUM[1] = 2
+		NUM[2] = 3
+
+-------------------MATRIZES------------------------
+SINTAXE DE MATRIZ
+	INTEIRO NUM[3][5]
+
+-------------DOTNET-----------------------------------
+
+CRIAR UM NOVO PROJETO
+	dotnet new console 
+
+EXECUTAR PROJETO
+	dotnet run
+
+ESCREVA -> Console.WriteLine("olá mundo")
